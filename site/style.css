@@ -1,4 +1,7 @@
 body {
 	background-color: grey;
-	font-size: 130%;
 }
+.row {margin-bottom: 15px;}
+.row > div {border: 2px solid green;
+	background-color: grey;
+	text-align: center}
