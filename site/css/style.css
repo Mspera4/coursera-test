@@ -89,7 +89,7 @@ body {
 
 #menu-tile, #specials-tile, #map-tile {
 	height: 250px;
-	width: 100%;
+	width: 98%;
 	margin-bottom: 15px;
 	position: relative;
 	border: 2px solid #3f0c1f;
@@ -98,6 +98,29 @@ body {
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
+
+#menu-tile {
+	background: url('../image/salmon.jpg') no-repeat;
+	background-position: center;
+}
+#specials-tile {
+	background: url('../image/salad.jpg') no-repeat;
+	background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
 /*End home page*/
 
 /**** Large devices only****/
@@ -188,5 +211,25 @@ body {
 .container .jumbotron {
 	margin-top: 30px;
 	padding: 0;
+	}
+}
+
+#menu-tile, #specials-tile {
+	width: 350px;
+	margin: 0 auto 15px;
+}
+
+/**** Super extra small devices only (moto 4g,etc...)****/
+@media (max-width: 479px) {
+	/*Header*/
+	.navbar-brand h1 { /*Restaurant name*/
+ 	padding-top: 5px;
+ 	font-size: 6vw;
+ 	 }
+	/*End Header*/
+	/*Home page*/
+	#menu-tile, #specials-tile {
+		width: 280px;
+		margin: 0 auto 15px;
 	}
 }

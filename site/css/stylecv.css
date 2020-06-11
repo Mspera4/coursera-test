@@ -5,8 +5,14 @@ body {
 	font-family: 'Oxygen', sans-serif;}
 /*Header*/
 #header-nav {
-	background-color: #0356fc;
+	background-color: #f6b319;
 	border-radius: 0;
 	border: 0;
 }
-#logo-img 
+
+#logo-img {
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0px;
+	background: url(https://api.tvpublica.com.ar/wp-content/uploads/2018/12/Salvar-al-planeta-Ambiente-y-Medio-150x150.jpg) no-repeat ;
+	}
