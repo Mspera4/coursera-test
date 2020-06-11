@@ -82,7 +82,7 @@ body {
 /**** Large devices only****/
 @media (min-width: 1200px){
 	.jumbotron {
-		background: url('../image/jumbotron2.jpg') no-repeat;
+		background: url('../image/jumbotron1.jpg') no-repeat;
 		height: 675px;
 		box-shadow: 0 0 50px #3f0c1f;
 		border: 2px solid #3f0c1f;
@@ -97,6 +97,12 @@ body {
 		width: 100px;
 		height: 100px;
 		margin: 5px 5px 5px 0;
+	}
+	.jumbotron { /fix image/
+		background: url('../image/jumbotron992.jpg') no-repeat;
+		height: 558px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
 	}	
 	/*End Header*/
 }
