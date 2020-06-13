@@ -81,6 +81,34 @@ body {
 
 /* End Header*/
 
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+#hours, #address {
+	line-height: 2;
+}
+#hours > span, #address > span {
+	font-size: 1.3em;
+}
+#address p {
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+#testimonials {
+	font-style: italic;
+}
+#testimonials p:nth-child(2) {
+	margin-top: 25px;
+}
+
 /*Home page*/
 .container .jumbotron {
 	box-shadow: 0 0 50px #3f0c1f;
@@ -120,8 +148,37 @@ body {
 	color: #fff;
 	opacity: .8;
 }
-
 /*End home page*/
+
+/*Menu categories page*/
+.category-tile {
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+.category-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+.category-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div {
+	margin-bottom: 50px;
+}
+/*End menu categories page*/
+
 
 /**** Large devices only****/
 @media (min-width: 1200px){
@@ -207,6 +264,21 @@ body {
 }
 /*End header*/
 
+/*Footer*/
+.panel-footer section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.panel-footer section:nth-child(3) {
+	margin-bottom: 0; /*margin already exists on the whole row*/
+}
+
+.panel-footer section hr {
+	width: 50%;
+}
+/*End footer*/
+
+
 /*Home page*/
 .container .jumbotron {
 	margin-top: 30px;
@@ -231,5 +303,13 @@ body {
 	#menu-tile, #specials-tile {
 		width: 280px;
 		margin: 0 auto 15px;
+	}
+	.col-xxs-12 {
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
 	}
 }
