@@ -177,8 +177,54 @@ body {
 #menu-categories-title + div {
 	margin-bottom: 50px;
 }
+
 /*End menu categories page*/
 
+/*Single Category page*/
+
+.menu-item-tile {
+	margin-bottom: 25px;
+}
+.menu-item-tile hr {
+	width: 80%;
+}
+.menu-item-tile .menu-item-price {
+	font-size: 1.1em;
+	text-align: left;
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+.menu-item-tile .menu-item-price span {
+	font-size: .6em;
+}
+.menu-item-photo {
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+.menu-item-photo div {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80%;
+	background-color: #557c3e;
+	text-align: center;
+}
+.menu-item-description {
+	padding-right: 30px;
+}
+h3.menu-item-title {
+	margin: 0 0 10px;
+}
+.menu-item-details {
+	font-size: .9em;
+	font-style: italic;
+}	
 
 /**** Large devices only****/
 @media (min-width: 1200px){
@@ -210,6 +256,13 @@ body {
 		background: url('../image/jumbotron992.jpg') no-repeat;
 		height: 580px;
 	
+}
+/*Single category*/
+.menu-item-tile .menu-item-price {
+	font-size: 1.1em;
+	text-align: right;
+	margin-top: -15px;
+	margin-bottom: -15px;
 }
 }
 
@@ -290,6 +343,21 @@ body {
 	width: 350px;
 	margin: 0 auto 15px;
 }
+.menu-item-photo {
+	margin-right: auto;
+}
+.menu-item-tile .menu-item-price {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.menu-item-description {
+	text-align: center;
+}
+	
+
+}
+/*End home page*/
+
 
 /**** Super extra small devices only (moto 4g,etc...)****/
 @media (max-width: 479px) {
@@ -312,4 +380,4 @@ body {
 		float: left;
 		width: 100%;
 	}
-}
+}	
