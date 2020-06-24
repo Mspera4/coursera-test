@@ -17,7 +17,7 @@ function (event) {
 					.textContent;
 					title += " and Lovin' it!";
 					document
-					.querySelector("#title")
+					.querySelector("h1")
 					.textContent = title;
 			}
 		}
