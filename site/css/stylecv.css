@@ -152,6 +152,7 @@ ul span {
 /**** Super extra small devices only (moto 4g,etc...)****/
 @media (max-width: 479px) {
 	#img-perfil {
+	background: url("../image/mariano-cv-xs.jpg") no-repeat;
 	margin-left: 10px;
 	margin-right: 15px;
 }
@@ -159,13 +160,14 @@ ul span {
 	font-size: 1.4em;
 	position: absolute;
 	top: 20px;
-	left: 170px
+	left: 130px
 	}
 .navbar-tel h2 {
-	color: #222;
+	position: absolute;
+	top: 40px;
+	left: 130px;
 	font-size: 1.1em;
-	font-weight: bold;
-}
+	}
 #navbar-toggle {
   top:165px !important;
   position:relative;
