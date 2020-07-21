@@ -296,6 +296,26 @@ console.log(doubleAll(10));
 */
 //LECTURE 52 & 53 IN COURSERA//
 
+//Falcon MASTERS//
 
 
+var eltirri = ["marianito","pipi","tu vieja se la come ", 19, "ctrl v",2,4,6,9,1,3,"astro", "price", "tiene", "write"];
+var tirri = ["a", "la", "pipetua"];
+//document.write(eltirri[2] + eltirri[1]);
+//console.log(eltirri[0] + " ya no tiene " + eltirri[3] + " pirulos.")
+//document.write(eltirri[0] + " ya no tiene " + eltirri[3] + " pirulos.")
 
+
+//console.log(eltirri.length)
+
+//AGREGAR NUEVOS ELEMENTOS EN EL ARRAY
+//eltirri.push("huevis", "pedis", "chulis")
+
+
+//HACER UN ARRAY ENTRE DOS VAR
+//var tirrineitor = eltirri.concat(tirri)
+//console.log(tirrineitor)
+
+//ORDENAR ELEMENTOS
+//var ordenado = eltirri.sort();
+//console.log(eltirri)

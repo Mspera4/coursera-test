@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	color: #000;
 	font-size: 1.6em;
@@ -45,6 +48,10 @@ body {
 	font-weight: bold;
 	font-size: 1.4em;
 }
+.dropdown-menu{
+	padding-top: 0;
+	padding-bottom: 0;
+}
 .dropdown-menu > li > a {
 	display: block;
     padding: 3px 20px;
@@ -53,10 +60,12 @@ body {
     line-height: 1.5;
     color: #333;
     white-space: nowrap;
+    background-color: #919090;
 }
 .dropdown-menu > li > a:hover {
 	text-decoration: none;
 	background-color: #a196ff;
+	box-shadow: 1px 1px 5px 1px #1e268f;
 }
 
 #nav-list {
@@ -69,7 +78,7 @@ body {
 }
 #nav-list a:hover, #nav-list a:focus {
 	background-color: #a196ff;
-	box-shadow: 0 1px 5px 1px #cccccc;
+	box-shadow: 1px 1px 5px 1px #1e268f;
 }
 #nav-list a span {
 	font-size: 1.5em;
@@ -78,12 +87,27 @@ body {
 
 /****Main Content****/
 .container-content {
-	margin: 25px;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-bottom: 45px;
 	padding-top: 25px;
 }
 h2 {
 	padding-bottom: 20px;
 }
+.box {
+	background-color: #a196ff;
+	border: 1px solid #000;
+	text-align: justify;
+}
+.titulo {
+	text-align: center;
+}
+
+p {
+	margin: 10px;
+}
+
 ul {
 	list-style: none;
 }
@@ -104,7 +128,7 @@ ul span {
 /****Header****/
 
 #nav-list {
-	font-size: 17px;
+	font-size: 15px;
 	margin-top: 5px;
 }
 
