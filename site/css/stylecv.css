@@ -97,8 +97,8 @@ h2 {
 }
 .box {
 	background-color: #a196ff;
-	border: 1px solid #000;
 	text-align: justify;
+	margin-bottom: 25px;
 }
 .titulo {
 	text-align: center;
@@ -106,13 +106,6 @@ h2 {
 
 p {
 	margin: 10px;
-}
-
-ul {
-	list-style: none;
-}
-ul span {
-	font-size: .8em;
 }
 
 /****End Main Content****/
@@ -197,4 +190,3 @@ ul span {
   position:relative;
 }
 
-}
