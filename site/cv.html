@@ -7,7 +7,7 @@
 	<title>Curriculum Vitae</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/stylecv.css">
-<script rel="stylesheet" href="js/cv.js"></script>
+
 </head>
 <body>
 <header>
@@ -26,6 +26,7 @@
         <li class="dropdown">
           <p href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datos <span class="caret"></span></p>
           <ul class="dropdown-menu">
+            <li><a href="CV-Carta.html">Carta de Presentación</a></li>
             <li><a href="#">Mail. mariano@sperat.com.ar</a></li>
             <li><a href="#">Nacimiento: 19/11/1994</a></li>
             <li><a href="#">Nacionalidad: argentina</a></li>
@@ -46,15 +47,18 @@
 
     
     <div id="collapsable-nav" class="collapse navbar-collapse">
-      <ul id="nav-list" class="nav navbar-nav navbar-right">
+      <ul id="nav-list" class="nav navbar-nav navbar-right"> 
+        <li><a href="#perfil"><span class="glyphicon glyphicon-user"></span><br class="hiddes-xs">Perfil</a>
+        </li>
+
         <li><a href="#habilidades"><span class="glyphicon glyphicon-ok"></span><br class="hiddes-xs">Habilidades</a>
         </li>
         
         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-education"></span><br class="hiddes-xs"> Estudios <span class="caret"></span></a>
         
           <ul class="dropdown-menu">
-            <li><a href="#">Academicos</a></li>
-            <li><a href="#">Idiomas</a></li>
+            <li><a href="#academicos">Academicos</a></li>
+            <li><a href="#idiomas">Idiomas</a></li>
           </ul>
         </li>
           
@@ -80,130 +84,128 @@
           <li><a>D.N.I.: 38.429.292</a></li>
           <li><a>CUIL: 20-38.429.292-6</a></li>
         </ul>
-    </div>  
-      <hr class="line visible-sm visible-xs">
-      <h2 id="habilidades">Habilidades</h2>
+    </div>
+     
+    <div id="c1" class="container">
+      <div class="col-lg-6">
+      <h2 id="perfil">Perfil</h2>
+        
+        <p>
+          Tengo un perfil multidisciplinario, donde se combinar la creatividad en variadas formas con la organización y la disciplina de la gestión.  He desarrollado el arte culinario con la gestión en establecimientos gastronómicos y como también la creatividad del mundo del desarrollo del software aplicado para la eficiencia y la eficacia para optimizar resultados.
+        </p>
+      </div>
+
       
+      
+      <h2 id="habilidades">Habilidades</h2>
       <ul>
         <li>Excelente predisposición para el trabajo en equipo con versatilidad para adaptarme en diferentes puestos de trabajo.</li>
         <li>Búsqueda activa de nuevas técnicas y conocimientos para el desarrollo profesional y personal.</li>
         <li>Búsqueda de la eficiencia y eficacia en cada sector para lograr un rendimiento optimo.</li>
         <li>Responsabilidad y dedicación para desarrollar tareas asignadas.</li>
       </ul>
+    </div>
+    </div>
       <hr class="line visible-sm visible-xs">
       
       
+    <div class="container">
       <h2 id="estudios">Estudios</h2>
-        <div class="container">
-        <h3>Academicos</h3>
+        
+        <h3 id="academicos">Academicos</h3>
         <div class="col-md-4">
           
           <div class="box">
-          <h4 class="titulo">Instituto Superior Perito Moreno</h4>
-          <p>
-            <ul>
-            <li>Area de desarrollo ambiental.</li>
-            <li>Cursando 1° año de la carrera.</li>
-            </ul>
-
-
-
-          </p>
-          </div>
-        
-        </div>
-        <div class="col-md-4">
-          <div class="box">
-          <h4 class="titulo">Instituto Superior Perito Moreno</h4>
-          <p>
-            Excelente predisposición para el trabajo en equipo con versatilidad para adaptarme en diferentes puestos de trabajo.
-            Responsabilidad y cumplimiento de las normas establecidas.
-            Búsqueda de la eficiencia y eficacia en cada sector para lograr un rendimiento optimo.
-            Búsqueda activa de nuevas técnicas y conocimientos para el desarrollo profesional y personal.
-          </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="box">
           <h4 class="titulo">Cursos</h4>
-          <p>
+          
             <ul>
               <li>HTML, CSS, and Javascript for Web Developers (Johns Hopkins University)</li>
               <li>JavaScript Introduction (edX)</li>
-            </ul> 
-        
+              <li>JavaScript Basics (w3school).</li>
+           </li>Office 365 (Word, PowerPoint, Excel, Outlook).</li>
+            </ul>
+          </div>
+        </div> 
+        <div class="col-md-4">
+          <div class="box">
+          <h4 class="titulo">Instituto Superior Perito Moreno</h4>
+          <ul>
+            <li>Instituto Superior Perito Moreno (Desarrollo Ambiental).</li>
+            <li>Universidad Nacional de Lanús (Gestión Ambiental Urbana-2019).</li>
+          </ul>
           </div>
         </div>
-      </div>
-        <h3>Idiomas</h3>
+        <div class="col-md-4">
+          <div class="box">
+          <h4 class="titulo">Idiomas</h4>
           <ul>
           <li>Cambridge English: First (FCE) Council of Europe Level B2 </li>
           <li>Trinity College London: Grade 4 A2 of the common European Framework with Distinction</li>
           </ul>      
-
+ 
+        
+          </div>
+        </div>   
+    </div>
+    <div class="container">  
       <h2 id="experiencia">Experiencia</h2>
 
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <h3>HAPSA Hipódromo de Palermo</h3>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <h5><span>HAPSA Hipódromo de Palermo</span><span  class="trabajo">2020</span></h5>
               
             </div>
           <hr class="visible-xs">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <h3>Hotel Emperador</h3>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h5><span>Hotel Emperador</span><span class="trabajo">2019</span></h5>
               
             </div>
             <hr class="visible-xs">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <h3>La Taverna Tripitrip</h3>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h5><span>La Taverna Tripitrip</span><span class="trabajo">2018 - 2019</span></h5>
               
             </div>
 
             <hr class="visible-xs">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-            <h3>Hospital de San Isidro</h3>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+            <h5><span>Hospital de San Isidro</span><span class="trabajo">2017</span></h5>
               
             </div>
             <hr class="visible-xs">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-            <h3>Antares</h3>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+            <h5><span>Antares</span><span class="trabajo">2017</span></h5>
+              
+            </div>
+              
+            
+            <hr class="visible-xs">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+            <h5><span>Lepak SRL Eventos</span><span class="trabajo">2016</span></h5>
               
             </div>
             <hr class="visible-xs">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-            <h3>Forest Dan</h3>
-              
-            </div>
-            <hr class="visible-xs">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-            <h3>Lepak SRL Eventos</h3>
-              
-            </div>
-            <hr class="visible-xs">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-            <h3>Lepak SRL</h3>
-              
-            </div>
-            <hr class="visible-xs">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-            <h3>Ma’Grecht</h3>
+            
+            <div class="col-lg-12 col-md-12 col-sm-12">
+            <h5><span>Ma’Grecht</span><span class="trabajo">2016</span></h5>
               
             </div> 
             <hr class="visible-xs">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-            <h3>V675 Green Company</h3>
-             
-             </div>
-            <hr class="visible-xs">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-            <h3>DEGASA-Wendy’s</h3>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+            <h5><span>DEGASA-Wendy’s</span><span class="trabajo">2014 - 2015</span></h5>
              
             </div>
+            
+
+            
+
             <hr class="line visible-sm visible-xs">
-</div>
+         </div>
+        </div>
+
 
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="bootstrap.js"></script>
+<script src="js/cv.js"></script>  
 </body>
 </html>
