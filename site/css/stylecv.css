@@ -234,10 +234,7 @@ h5:hover {
 	color: #222;
 	font-size: 1.3em;
 	font-weight: bold;
-	/*position: absolute;
-	top: 50px;
-	left: 190px;
-*/}
+	}
 #nav-list {
 	font-size: 17px;
 	margin-top: 5px;
@@ -274,15 +271,12 @@ hr {
 	margin-right: 15px;
 }
 .navbar-brand h1 {
-	font-size: 1.4em;
+	font-size: 1.4em;/*
 	position: absolute;
 	top: 20px;
-	left: 160px
+	left: 160px*/
 	}
 .navbar-tel h2 {
-	position: absolute;
-	top: 40px;
-	left: 140px;
 	font-size: 1.1em;
 	}
 #navbar-toggle {
