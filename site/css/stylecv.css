@@ -114,6 +114,8 @@ body {
 h2 {
 	padding-bottom: 20px;
 }
+
+
 .box  {
 	text-align: justify;
 	padding: 15px;
@@ -226,10 +228,7 @@ h5:hover {
 /*****Extra Small device only*****/
 @media (max-width: 767px) {
 /* Header */
-/*#img-perfil {
-	margin-left: 10px;
-	margin-right: 15px;
-}*/
+
 .navbar-tel h2 {	
 	color: #222;
 	font-size: 1.3em;
@@ -247,6 +246,11 @@ h5:hover {
 	margin-right: 5px;
 	margin-bottom: 5px;
 }
+
+h2 > span {
+	padding-left: 15px;
+}
+
 .line {
 	border: 4px solid #556B2F;
 	border-radius: 5px;
