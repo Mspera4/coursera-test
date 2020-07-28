@@ -282,3 +282,7 @@ hr {
 	font-size: 30px;
 }
 
+h5 > span {
+	font-size: .7em;
+}
+
