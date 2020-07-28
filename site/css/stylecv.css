@@ -271,14 +271,13 @@ hr {
 	margin-right: 15px;
 }
 .navbar-brand h1 {
-	font-size: 1.4em;/*
-	position: absolute;
-	top: 20px;
-	left: 160px*/
-	}
+	font-size: 1.4em;
+}
+
 .navbar-tel h2 {
 	font-size: 1.1em;
 	}
+	
 #navbar-toggle {
   top:165px !important;
   position:relative;
