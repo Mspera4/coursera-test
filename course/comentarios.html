@@ -31,8 +31,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item active"><a class="nav-link" href="#">Nosotros</a></li>
-                <li class="nav-item"><a class="nav-link" href="comentarios.html">Comentarios</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#">Comentarios</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Condiciones</a></li>
             </ul>
         </div>
@@ -44,14 +44,35 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item" aria-current="page"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+                <li class="breadcrumb-item active" aria-current="page">Comentarios</li>
             </ol>
         </nav>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisis.</p>
+        <form>
+            <div class="form-group row">
+                <div class="col-sm-6 form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido">
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label for="provincia">Provincia</label>
+                    <select class="form-control" id="provincia">
+                        <option>Buenos Aires</option>
+                        <option>Córdoba</option>
+                        <option>Mendoza</option>
+                        <option>San Luis</option>
+                        <option>San Juan</option>
+                    </select>
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 <footer>
