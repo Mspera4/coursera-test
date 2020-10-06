@@ -19,10 +19,31 @@
         crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a href="#" class="navbar-brand">Hoteles</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Condiciones</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="jumbotron">
-    <h1>Hoteles</h1>
+        <h1>Hoteles</h1>
     </div>
     <div class="container"> 
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page"><a href="#">Home</a></li>
+            </ol>
+        </nav>
         <div class="d-flex flex-wrap">
             <div class="card-hotel d-flex flex-column justify-content-between">
                 <div>
@@ -88,8 +109,30 @@
     </div>
 </body>
 <footer>
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4"></div>
+    <div class="row">
+        <div class="col-sm-4 d-flex flex-column">
+            <h4>Redes Sociales</h4>
+            <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4 d-flex flex-column">
+            <h4>Sobre Nosotros</h4>
+            <ul>
+                <li>¿Quienes somos?</li>
+                <li>Nuestra visión</li>
+                <li>Responsabilidad Social</li>
+            </ul>
+        </div>
+        <div class="col-sm-4 d-flex flex-column align-items-end">
+            <address>
+                <h4>Oficina Central</h4>
+                <p>Cabildo</p>
+                <p>Tek: 549111234567</p>
+            </address>
+        </div>
+    </div>
 </footer>
 </html>

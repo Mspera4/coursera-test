@@ -1,11 +1,17 @@
 .jumbotron {
     background-color: #ffff00;
+    margin-top: 50px;
 }
 
 .card-hotel {
     flex: 1 150px;
-    padding: 2px 10px 2px 10px;
-    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 30px;
     border-top: 2px solid black;
 }
 
+footer {
+    padding: 10px 10px 0 10px;
+    background-color: #ffff00;
+    margin-bottom: 0;
+}
