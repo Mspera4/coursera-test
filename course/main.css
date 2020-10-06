@@ -15,3 +15,10 @@ footer {
     background-color: #ffff00;
     margin-bottom: 0;
 }
+.address {
+    padding-right: 10px;
+}
+
+.phone {
+    padding-right: 7px;
+}
